@@ -33,7 +33,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-    border-bottom: 10px solid blue;
+    padding-bottom: 45px;
+    border-bottom: 5px solid #1c69d4;
 }
 
 /* header ul{
