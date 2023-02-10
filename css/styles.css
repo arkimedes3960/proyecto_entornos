@@ -1,99 +1,52 @@
 * {
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #menu ul {
-    background-color: black;
-}
-
-#menu ul li {
-    list-style: none;
-} */
-
-header {
+header nav{
     width: 100%;
     height: 115px;
-    background-color: black;
+    background: black;
 }
 
-
-header ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 45px;
-}
-
-header ul {
-    color: white;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-header ul li a:hover {
-    padding-bottom: 45px;
-    border-bottom: 5px solid #1c69d4;   
-}
-
-/* header ul{
-    list-style: none;
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-    background-color: purple;
-
-
-}
-header ul a{
-    display: block;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: 'Courier New', Courier, monospace;
-    border-left: 2px rgb(255, 255, 255) solid;
-    border-right: 2px rgb(255, 255, 255) solid;
-}
-header ul li{
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-
-}
-header li:hover{
-    background-color: orange;
-}
-
-header ul ul{
-    display: none;
+header .enlace{
     position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    padding: 0;
-    background-color: purple;
-
-
+    padding: 20px 50px;
 }
-header ul ul li{
-    line-height: 120%;
-    padding: 10px 15px;
+header .logo{
+    height: 40px;
+    margin-left: 60px;
 }
-header ul ul ul{
-    top: 0;
-    left: 100%;
-    background-color: purple;
-}
-header ul li:hover > ul{
-    display: block;
-} */
 
+header nav ul{
+    float: left;
+    margin-left: 250px;
+}
+
+header nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-top: 15px;
+}
+
+img {
+    padding-top: 15px;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    padding-bottom: 40px;
+    border-bottom: 5px solid #1c69d4;   
+} 
 
 #portada {
     background-color: white;
@@ -104,3 +57,5 @@ header ul li:hover > ul{
     height: 200px;
     background-color: white;
 }
+
+
