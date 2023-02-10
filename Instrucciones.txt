@@ -1,0 +1,9 @@
+En la página principal de la página el usuario encontrará en la parte superior de la página un menú con las diferentes opciones que puede hacer dentro de la Web.
+
+Como primera opción del menú será un acceso que te redirecciona a la página principal donde encontrarás información general sobre la empresa, novedades etc…
+
+En la segunda opción tendrás un acceso a consultar los modelos de la marca que se encuentran disponibles para su compra en ese mismo momento.
+
+La tercera opción será un comparador, donde te llevará a una nueva página en la que podrás seleccionar 2 coches y el sistema te mostrará las especificaciones de cada coche para que el usuario pueda compararlas con mayor facilidad.
+
+En el apartado de contacto tendrás nuestra información para poder contactar con tu concesionario más cercano.
