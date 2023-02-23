@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav{
+  width: 100%;
+  height: 115px;
+  background: black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+header nav {
+  justify-content: space-between;
+}  
+header .logo{
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 20%;
+}
+header nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+img {
+  padding-top: 15px;
+}
+header nav ul li a{
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+  
+header nav ul li a:hover {
+  padding-bottom: 40px;
+  border-bottom: 5px solid #1c69d4;   
+} 
+
+#login img{
+    width: 35px;
+}
+
+#carro img{
+width: 35px;
+
+}
+#portada {
+  padding-top: 2%;
+}
+
+#portada svg {
+  padding-top: 10%;
+  padding-left: 25%;
+  display: flex;
+}
+
+#portada h2 {
+    width: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-size: 62px;
+    padding-bottom: 5%;
+}
+
+main h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formulario {
+    margin-top: 2%;
+    background-color: whitesmoke;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 100%;
+    resize: none;
+  }
+  
+  /* Estilo para el botón de enviar */
+  button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077CC;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    padding-top: 5%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li {
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.right h2 {
+    border-bottom: 5px solid black;
+}
+
+.left {
+    margin-left: 60px;
+    float: left;
+    position: relative;
+    width: 45%;
+}
+
+.right {
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+
+}
