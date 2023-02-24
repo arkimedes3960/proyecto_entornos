@@ -89,3 +89,7 @@ section img{
 width: 95%;
 margin-left: 7%;
 }
+
+section img:hover{
+  width: 98%;
+}
